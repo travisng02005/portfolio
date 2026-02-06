@@ -1,0 +1,44 @@
+html body {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FDF2D0;
+  color: #FDF2D0;
+  display: flex;
+  flex-direction: column;
+}
+body header h2 {
+  color:#FDF2D0;
+}
+
+body h2 {
+  text-align: center;
+  color:#344C34
+}
+header {
+  background: #344C34;
+}
+
+footer {
+  background-color: #344C34; /* deep matcha green */
+  color: #FDF2D0; /* cream text */
+  padding: 1.5rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FDF2D0;              /* your cream color */
+  position: relative;          /* needed for hover effect below */
+}
+
+#social {
+  align-items: center;
+  justify-content: center;
+  margin: 3rem 0;
+  text-align: center;
+}
